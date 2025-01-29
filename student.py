@@ -11,6 +11,8 @@ if option == "View All Available Activities":
     
 
     file_path = "data.csv" 
+    st.write("---")
+
     
     try:
         df = pd.read_csv(file_path)
@@ -23,6 +25,7 @@ elif option == "Discover Events Based on My Skills and Interests":
     provider="together"
     API_KEY = "AIzaSyDw_VJYuaeeJbzXuih3Dosz2M1JpuCIFXg" 
     genai.configure(api_key=API_KEY)
+    st.write("---")
 
     st.title("🤖 HackTrack - Your AI Assistant")
     st.caption("🚀 Discover relevant training programs based on your interests")
