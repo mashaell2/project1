@@ -2,10 +2,6 @@ import streamlit as st
 from huggingface_hub import InferenceClient
 
 
-HORIZONTAL = r"C:\Users\shoog\OneDrive\المستندات\logo.jpg"
-st.image(HORIZONTAL, width=325)  
-
-
 
 
 
