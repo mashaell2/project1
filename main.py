@@ -2,10 +2,15 @@ import streamlit as st
 from huggingface_hub import InferenceClient
 
 
+HORIZONTAL = r"C:\Users\shoog\OneDrive\المستندات\logo.jpg"
+st.image(HORIZONTAL, width=325)  
 
 
 
-st.title("HackTrack👾💻")
+
+
+
+#st.title("HackTrack👾💻")
 st.write("---")
 st.sidebar.title("Sidebar Menu")
 page = st.sidebar.radio("Select Page:", ["Home", "About the App", "Feedback & Evaluation"])
